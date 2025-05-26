@@ -2,10 +2,14 @@ from src.datascience.utils import logger
 from src.datascience.pipeline.data_ingestion import DataIngestionTrainingPipeline
 from src.datascience.pipeline.data_validation import DataValidationTrainingPipeline
 from src.datascience.pipeline.data_transformation import DataTransformationTrainingPipeline
+from src.datascience.pipeline.model_trainer import ModelTrainingPipeline
+
 logger.info("Initating ML Pipeline")
 STAGE_NAME_1 = 'Data Ingestion'
 STAGE_NAME_2 = 'Data Validation'
 STAGE_NAME_3 = 'Data Transformation'
+STAGE_NAME_4 = 'Model Pipeline'
+
 
 try:
     logger.info(f">>>>>>>>>>>Stage {STAGE_NAME_1} Started<<<<<<<<<<<")
@@ -36,3 +40,13 @@ try:
     logger.info(f">>>>>>>>>>>Stage {STAGE_NAME_3} Completed<<<<<<<<<<<")
 except Exception as err:
     raise err 
+
+logger.info("=====================================================")
+
+try:
+    logger.info(f">>>>>>>>>>>Stage {STAGE_NAME_4} Started<<<<<<<<<<<")
+    obj = ModelTrainingPipeline()
+    obj.initiate_training()
+    logger.info(f">>>>>>>>>>>Stage {STAGE_NAME_4} Completed<<<<<<<<<<<")
+except Exception as err:
+    raise err
