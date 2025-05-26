@@ -52,3 +52,128 @@ Source-Age: 0
 
 ]
 [2025-05-24 18:28:48,205]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Completed<<<<<<<<<<<]
+[2025-05-26 12:26:27,138]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:26:27,142]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:26:27,146]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:26:27,148]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:26:27,150]: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-26 12:26:44,099]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:26:44,101]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:26:44,106]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:26:44,108]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:26:44,109]: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-26 12:27:33,119]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:27:33,122]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:27:33,128]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:27:33,129]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:27:33,131]: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-26 12:42:18,315]: INFO: main: Initating ML Pipeline]
+[2025-05-26 12:42:18,315]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Started<<<<<<<<<<<]
+[2025-05-26 12:42:18,316]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:42:18,316]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:42:18,318]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:42:18,318]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:42:18,318]: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-26 12:42:18,318]: INFO: data_ingestion: file already exists.]
+[2025-05-26 12:42:18,322]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Completed<<<<<<<<<<<]
+[2025-05-26 12:42:18,322]: INFO: main: =====================================================]
+[2025-05-26 12:42:18,322]: INFO: main: >>>>>>>>>>>Stage Data Validation Started<<<<<<<<<<<]
+[2025-05-26 12:42:18,322]: ERROR: main: DataValidationTrainingPipeline.validate_data() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/main.py", line 22, in <module>
+    obj.validate_data()
+TypeError: DataValidationTrainingPipeline.validate_data() missing 1 required positional argument: 'self'
+[2025-05-26 12:43:47,399]: INFO: main: Initating ML Pipeline]
+[2025-05-26 12:43:47,399]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Started<<<<<<<<<<<]
+[2025-05-26 12:43:47,401]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:43:47,401]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:43:47,403]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:43:47,403]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:43:47,403]: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-26 12:43:47,403]: INFO: data_ingestion: file already exists.]
+[2025-05-26 12:43:47,404]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Completed<<<<<<<<<<<]
+[2025-05-26 12:43:47,404]: INFO: main: =====================================================]
+[2025-05-26 12:43:47,404]: INFO: main: >>>>>>>>>>>Stage Data Validation Started<<<<<<<<<<<]
+[2025-05-26 12:43:47,405]: ERROR: main: DataValidationTrainingPipeline.validate_data() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/main.py", line 22, in <module>
+    obj.validate_data()
+TypeError: DataValidationTrainingPipeline.validate_data() missing 1 required positional argument: 'self'
+[2025-05-26 12:44:47,781]: INFO: main: Initating ML Pipeline]
+[2025-05-26 12:44:47,781]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Started<<<<<<<<<<<]
+[2025-05-26 12:44:47,783]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:44:47,783]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:44:47,784]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:44:47,785]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:44:47,785]: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-26 12:44:47,785]: INFO: data_ingestion: file already exists.]
+[2025-05-26 12:44:47,786]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Completed<<<<<<<<<<<]
+[2025-05-26 12:44:47,786]: INFO: main: =====================================================]
+[2025-05-26 12:44:47,787]: INFO: main: >>>>>>>>>>>Stage Data Validation Started<<<<<<<<<<<]
+[2025-05-26 12:44:47,788]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:44:47,789]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:44:47,791]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:44:47,791]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:44:47,791]: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-26 12:44:47,798]: ERROR: main: 'Logger' object has no attribute 'infor']
+Traceback (most recent call last):
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/src/datascience/components/data_validation.py", line 27, in validate_all_columns
+    logger.infor(f"Validated all the entities and the Status is {validation_status}")
+AttributeError: 'Logger' object has no attribute 'infor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/main.py", line 22, in <module>
+    obj.validate_data()
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/src/datascience/pipeline/data_validation.py", line 15, in validate_data
+    data_validation.validate_all_columns()
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/src/datascience/components/data_validation.py", line 32, in validate_all_columns
+    logger.infor("Error while validating the data.")
+AttributeError: 'Logger' object has no attribute 'infor'
+[2025-05-26 12:45:01,149]: INFO: main: Initating ML Pipeline]
+[2025-05-26 12:45:01,149]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Started<<<<<<<<<<<]
+[2025-05-26 12:45:01,150]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:45:01,151]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:45:01,152]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:45:01,153]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:45:01,153]: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-26 12:45:01,153]: INFO: data_ingestion: file already exists.]
+[2025-05-26 12:45:01,154]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Completed<<<<<<<<<<<]
+[2025-05-26 12:45:01,154]: INFO: main: =====================================================]
+[2025-05-26 12:45:01,155]: INFO: main: >>>>>>>>>>>Stage Data Validation Started<<<<<<<<<<<]
+[2025-05-26 12:45:01,156]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:45:01,157]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:45:01,159]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:45:01,159]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:45:01,159]: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-26 12:45:01,165]: INFO: data_validation: Error while validating the data.]
+[2025-05-26 12:45:01,165]: ERROR: main: 'Logger' object has no attribute 'infor']
+Traceback (most recent call last):
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/main.py", line 22, in <module>
+    obj.validate_data()
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/src/datascience/pipeline/data_validation.py", line 15, in validate_data
+    data_validation.validate_all_columns()
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/src/datascience/components/data_validation.py", line 33, in validate_all_columns
+    raise err
+  File "/home/sri/projects/personal/experiments/end_to_end_ml/data_science_project/src/datascience/components/data_validation.py", line 27, in validate_all_columns
+    logger.infor(f"Validated all the entities and the Status is {validation_status}")
+AttributeError: 'Logger' object has no attribute 'infor'
+[2025-05-26 12:45:08,634]: INFO: main: Initating ML Pipeline]
+[2025-05-26 12:45:08,634]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Started<<<<<<<<<<<]
+[2025-05-26 12:45:08,636]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:45:08,636]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:45:08,638]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:45:08,638]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:45:08,638]: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-26 12:45:08,638]: INFO: data_ingestion: file already exists.]
+[2025-05-26 12:45:08,640]: INFO: main: >>>>>>>>>>>Stage Data Ingestion Completed<<<<<<<<<<<]
+[2025-05-26 12:45:08,640]: INFO: main: =====================================================]
+[2025-05-26 12:45:08,640]: INFO: main: >>>>>>>>>>>Stage Data Validation Started<<<<<<<<<<<]
+[2025-05-26 12:45:08,642]: INFO: common: yaml file: config/config.yaml loaded successfully.]
+[2025-05-26 12:45:08,642]: INFO: common: yaml file: params.yaml loaded successfully.]
+[2025-05-26 12:45:08,644]: INFO: common: yaml file: schema.yaml loaded successfully.]
+[2025-05-26 12:45:08,645]: INFO: common: Created directory at: artifacts]
+[2025-05-26 12:45:08,645]: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-26 12:45:08,650]: INFO: data_validation: Validated all the entities and the Status is True]
+[2025-05-26 12:45:08,651]: INFO: main: >>>>>>>>>>>Stage Data Validation Completed<<<<<<<<<<<]
